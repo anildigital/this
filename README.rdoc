@@ -1,6 +1,6 @@
 = this
 
-Description goes here.
+The Zen of Python in Ruby
 
 == Note on Patches/Pull Requests
  
