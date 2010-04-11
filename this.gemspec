@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Anil Wadghule"]
   s.date = %q{2010-04-11}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{Long time Pythoneer Tim Peters succinctly channels the BDFL's guiding principles for Python's design into 20 aphorisms, only 19 of which have been written down, 'this' RubyGem brings Python's 'this' goodness in Ruby.'}
   s.email = %q{anildigital@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -25,7 +25,8 @@ Gem::Specification.new do |s|
      "VERSION",
      "lib/this.rb",
      "test/helper.rb",
-     "test/test_this.rb"
+     "test/test_this.rb",
+     "this.gemspec"
   ]
   s.homepage = %q{http://github.com/anildigital/this}
   s.rdoc_options = ["--charset=UTF-8"]
