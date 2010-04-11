@@ -6,7 +6,7 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "this"
     gem.summary = %Q{The Zen of Python in Ruby}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.description = %Q{Long time Pythoneer Tim Peters succinctly channels the BDFL's guiding principles for Python's design into 20 aphorisms, only 19 of which have been written down, 'this' RubyGem brings Python's 'this' goodness in Ruby.'}
     gem.email = "anildigital@gmail.com"
     gem.homepage = "http://github.com/anildigital/this"
     gem.authors = ["Anil Wadghule"]
