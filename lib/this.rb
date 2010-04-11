@@ -1,4 +1,4 @@
-zen =<<ZEN
+@zen =<<ZEN
 The Zen of Python, by Tim Peters
 
 Beautiful is better than ugly.
@@ -22,4 +22,8 @@ If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 ZEN
 
-puts zen
+puts @zen
+
+def this
+  puts @zen
+end
