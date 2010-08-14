@@ -1,29 +1,27 @@
-@zen =<<ZEN
-The Zen of Python, by Tim Peters
+ZEN =<<ZEN
+The Zen of Ruby, by http://bit.ly/the_zen_of_ruby
 
-Beautiful is better than ugly.
-Explicit is better than implicit.
-Simple is better than complex.
-Complex is better than complicated.
-Flat is better than nested.
-Sparse is better than dense.
-Readability counts.
-Special cases aren't special enough to break the rules.
-Although practicality beats purity.
-Errors should never pass silently.
-Unless explicitly silenced.
-In the face of ambiguity, refuse the temptation to guess.
-There should be one-- and preferably only one --obvious way to do it.
-Although that way may not be obvious at first unless you're Dutch.
-Now is better than never.
-Although never is often better than *right* now.
-If the implementation is hard to explain, it's a bad idea.
-If the implementation is easy to explain, it may be a good idea.
-Namespaces are one honking great idea -- let's do more of those!
+MINASWAN: Matz is nice, and so we are nice.
+Easy is better than simple.
+There is more than one way to do everything and this is good.
+Premature optimization is the root of all evil.
+"blocks aren't objects" and the corollary "blocks are objects"
 ZEN
 
-puts @zen
-
-def this
-  puts @zen
+class This
+  attr :output_stream, true
+  
+  def this
+    output_stream.puts(ZEN)
+  end
 end
+
+@life = This.new
+@life.output_stream = $stdout
+@life.this
+
+Object.class_eval {
+  def this
+    @life.this
+  end
+}
